@@ -26,11 +26,11 @@ An Blinky LED example program for testing your local VSCode environment in tande
 ### Method 1: Using GUI Buttons
 - Under the CMake extension, click the ellipsis button to **clean** the project. This is removing any lingering binaries and executables from previous builds.
 
-![image](https://github.com/crsz20/blink_411/assets/71054319/f5e9afe7-42fb-48f4-89c2-07720693bf31)
+![image](https://github.com/crsz20/blink_411/assets/71054319/66d46963-44b8-4283-87a2-95b523ff7e8d)
 
 - Under the CMake extension, click on the **build** button.
 
-![image](https://github.com/crsz20/blink_411/assets/71054319/00bb90d2-e877-4d56-995b-d07c5239221b)
+![image](https://github.com/crsz20/blink_411/assets/71054319/76c387a7-8fad-483a-a9ff-af764d9bda21)
 
 - You should be able to see the output of building/compiling in the `./build/debug/build` directory.
 - You will find the following important files: `.bin`, .`hex`, and `.elf` (Executable Linker File). Any one of these files can be used to flash the dev board.
@@ -53,7 +53,8 @@ An Blinky LED example program for testing your local VSCode environment in tande
 ### Method 1: Debugging
 - Launch the debugger
 
-![image](https://github.com/crsz20/blink_411/assets/71054319/93cfdf0d-12ae-478a-9ec5-bde29b1bd303)
+![image](https://github.com/crsz20/blink_411/assets/71054319/80fe60fb-b783-44f1-9fd8-278cc7eff03f)
+
 
 ### Method 2: Using CubeCLT
 - Open the terminal

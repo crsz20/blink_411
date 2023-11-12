@@ -27,6 +27,9 @@ jobs:
             # See where we are in the VM
           - name: Check current directory
             run: pwd
+
+          - name: Test variable
+            run: echo "${GITHUB_WORKSPACE} and ${{ github.workspace }}"
           
           - name: Build STM32CubeIde project
             uses: xanderhendriks/action-build-stm32cubeide@v10.0

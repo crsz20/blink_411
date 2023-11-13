@@ -34,6 +34,6 @@ jobs:
           - name: Build STM32CubeIde project
             uses: xanderhendriks/action-build-stm32cubeide@v10.0
             with:
-              project-path: 'blink_f411'
+              project-path: '.'
               project-target: 'blink_f411'
             

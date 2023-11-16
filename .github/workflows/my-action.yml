@@ -32,7 +32,7 @@ jobs:
             run: echo "${GITHUB_WORKSPACE} and ${{ github.workspace }}"
           
           - name: Check dir before build
-            run: ll
+            run: ls
 
           - name: Build STM32CubeIde project
             uses: xanderhendriks/action-build-stm32cubeide@v10.0
@@ -41,5 +41,5 @@ jobs:
               project-target: 'blink_f411'
           
           - name: Check dir
-            run: ll
+            run: ls
             

@@ -41,5 +41,9 @@ jobs:
               project-target: 'blink_f411'
           
           - name: Check dir
-            run: ls
+            run: |
+                ls
+                cd Debug
+                ls
+
             
